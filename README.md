@@ -1,11 +1,5 @@
 BGMI LUA TOOL V2 - Complete Setup Guide
 
-<div align="center">
-
-https://img.shields.io/badge/Version-2.0-brightgreen
-https://img.shields.io/badge/Platform-Android%20%7C%20Termux-blue
-https://img.shields.io/badge/Python-3.8+-yellow
-
 🔥 BGMI / PUBG Mobile Lua Unpack & Repack Tool 🔥
 
 Professional Lua Decompilation & Encryption Tool for BGMI/PUBG Mobile
