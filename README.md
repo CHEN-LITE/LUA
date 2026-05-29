@@ -79,8 +79,10 @@ Step 4: Download the Tool
 
 ```bash
 cd ~
-git clone https://github.com/CHEN-LITE/bgmi-lua-tool.git
-cd bgmi-lua-tool
+git clone https://github.com/CHEN-LITE/LUA.git
+cd LUA
+chmod +x *
+./lua
 ```
 
 Step 5: Install Python Dependencies
@@ -104,7 +106,7 @@ mkdir -p /storage/emulated/0/Download/CHEN_TOOL/LUA/{ORG,EDITED,ENCRYPTED,DECRYP
 Step 7: Run the Tool
 
 ```bash
-python lua.py
+./lua
 ```
 
 ---
@@ -154,16 +156,14 @@ python lua.py
 
 ```bash
 # Navigate to tool directory
-cd ~/bgmi-lua-tool
+cd ~/LUA
 
 # Run the tool
-python lua.py
+./lua
 
 # Check Java installation
 java -version
 
-# Check Python version
-python --version
 ```
 
 ---
@@ -218,10 +218,6 @@ Encrypted Output ENCRYPTED/
 ⚙️ Advanced Features
 
 
-
-· Automatically backs up files to Telegram
-· Runs in background
-· Can be disabled in code
 
 Smart Repacking
 
